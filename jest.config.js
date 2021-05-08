@@ -6,4 +6,6 @@ module.exports = {
     '^.+\\.tsx?$': 'ts-jest',
   },
   testRegex: 'lib/.*.test\\.ts$',
+  coverageDirectory: '.github/coverage/',
+  collectCoverage: true,
 }
