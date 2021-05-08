@@ -1,0 +1,8 @@
+.idea/
+.github
+node_modules/
+src/
+.eslint*
+.nvmrc
+jest.config.js
+tsconfig*.json

@@ -1,13 +1,14 @@
 {
   "name": "strconv",
-  "version": "0.0.1",
+  "version": "0.0.4",
   "description": "module inspired by golang strconv",
-  "main": "index.js",
+  "main": "./dist/index.js",
   "scripts": {
     "prebuild": "rimraf dist",
     "build": "tsc",
     "lint": "eslint . --ext .ts",
     "lint:fix": "npm run lint -- --fix",
+    "prepublish": "npm run build",
     "test": "jest"
   },
   "repository": {
@@ -18,8 +19,8 @@
     "strconv",
     "canonical MIME header key"
   ],
-  "author": "",
-  "license": "ISC",
+  "author": "kanziw <kanziwoong@gmail.com>",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/kanziw/ts-strconv/issues"
   },
