@@ -40,6 +40,10 @@ jobs:
           token: ${{ secrets.CODECOV_TOKEN }}
           fail_ci_if_error: true
           directory: .github/coverage/
+      - uses: VeryGoodOpenSource/very_good_coverage@v1.1.1
+        with:
+          path: ".github/coverage/lcov.info"
+          min_coverage: 95
 
   build:
     runs-on: ubuntu-latest
