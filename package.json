@@ -1,6 +1,6 @@
 {
   "name": "strconv",
-  "version": "0.0.4",
+  "version": "1.0.0",
   "description": "module inspired by golang strconv",
   "main": "./dist/index.js",
   "scripts": {
